@@ -1,0 +1,17 @@
+[project]
+name = "support-ticket-auto-triage"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "datasets>=4.4.2",
+    "fastapi>=0.125.0",
+    "joblib>=1.5.3",
+    "pandas>=2.3.3",
+    "pyarrow>=22.0.0",
+    "scikit-learn>=1.8.0",
+    "unicorn[standard]>=2.1.4",
+    "ipykernel>=7.1.0",
+    "matplotlib>=3.10.8",
+]
