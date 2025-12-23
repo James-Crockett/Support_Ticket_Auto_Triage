@@ -14,4 +14,5 @@ dependencies = [
     "unicorn[standard]>=2.1.4",
     "ipykernel>=7.1.0",
     "matplotlib>=3.10.8",
+    "fastapi[standard]",
 ]
