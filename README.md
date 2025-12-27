@@ -1,18 +1,10 @@
-# Support Ticket Auto-Triage SystemTriage
+# Support Ticket Auto-Triage 
 
-An AI-powered classification pipeline designed to automate the routing of customer support tickets. This project compares traditional Machine Learning baselines (SVM, SGD) against a Deep Learning approach (DistilBERT) to intelligently categorize tickets into 10 distinct support queues.
+An classification pipeline designed to automate the routing of customer support tickets. This project compares traditional Machine Learning baselines (SVM, SGD) against a Deep Learning approach (DistilBERT) to categorize tickets into 10 distinct support queues.
 
 ## Dataset
-
-```bibtex
-    bash@misc{tobias_bück_2025,
-	author       = { Tobias Bück },
-	title        = { customer-support-tickets (Revision 6ecc75e) },
-	year         = 2025,
-	url          = { https://huggingface.co/datasets/Tobi-Bueck/customer-support-tickets },
-	doi          = { 10.57967/hf/6184 },
-	publisher    = { Hugging Face }
-}
+```bash
+https://huggingface.co/datasets/Tobi-Bueck/customer-support-tickets
 ```
 
 ## Features
@@ -50,8 +42,8 @@ This project uses **uv** for fast, reproducible dependency management.
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/yourusername/support-ticket-auto-triage.git](https://github.com/yourusername/support-ticket-auto-triage.git)
-cd support-ticket-auto-triage
+git clone https://github.com/James-Crockett/Support_Ticket_Auto_Triage.git
+cd Support_Ticket_Auto_Triage
 ```
 
 ### 2. Install Dependencies
@@ -64,16 +56,16 @@ uv sync
 ```
 ### 3. GPU Setup (Optional)
 
-The project is configured to use PyTorch Nightly (CUDA 12.8) for compatibility with RTX 50-series (sm_120) hardware.
+The project is configured to use PyTorch Nightly (CUDA 12.8) for compatibility with RTX 50-series (sm_120) hardware. Maybe in future this would be unnecessary.
 
-### Usage
+### 4. Usage
 
 ### Training
 The training logic is split into Jupyter Notebooks:
 
-notebooks/data_exp_linear.ipynb: EDA and Linear baseline models.
+**1. notebooks/data_exp_linear.ipynb:** EDA and Linear baseline models.
 
-notebooks/transformer.ipynb: Deep Learning fine-tuning with custom class weighting.
+## **2. notebooks/transformer.ipynb:** Deep Learning DistilBERT finetuned.
 
 ### Docker Deployment
 Build and run the inference API:
@@ -92,9 +84,7 @@ curl -X 'POST' \
 
 ### Response:
 
-```bash
-JSON
-
+```JSON
 {
   "predicted_queue": "Technical Support"
 }
@@ -111,6 +101,6 @@ JSON
 ├── Dockerfile               # Production Docker config
 ├── pyproject.toml           # Dependency configuration
 └── README.md                # Project documentation
-``
+```
 
 
