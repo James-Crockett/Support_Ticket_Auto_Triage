@@ -65,7 +65,7 @@ The training logic is split into Jupyter Notebooks:
 
 **1. notebooks/data_exp_linear.ipynb:** EDA and Linear baseline models.
 
-## **2. notebooks/transformer.ipynb:** Deep Learning DistilBERT finetuned.
+**2. notebooks/transformer.ipynb:** Deep Learning DistilBERT finetuned.
 
 ### Docker Deployment
 Build and run the inference API:
@@ -83,6 +83,13 @@ curl -X 'POST' \
   ```
 
 ### Response:
+
+### Sample
+
+![API_sample](../images/api_screenshot.png)
+<!-- ```html
+<img src="../images/api_screenshot.png" alt="sample" width="600">
+``` -->
 
 ```JSON
 {
