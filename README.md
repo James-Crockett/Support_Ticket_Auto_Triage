@@ -85,9 +85,7 @@ curl -X 'POST' \
 ### Response:
 
 <!-- ### Sample -->
-```html
 <img src="./images/api_screenshot.png" alt="sample" width="600">
-```
 
 <!-- ```JSON
 {
