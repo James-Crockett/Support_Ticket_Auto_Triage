@@ -84,18 +84,16 @@ curl -X 'POST' \
 
 ### Response:
 
-### Sample
+<!-- ### Sample -->
+```html
+<img src="./images/api_screenshot.png" alt="sample" width="600">
+```
 
-![API_sample](images/api_screenshot.png)
-<!-- ```html
-<img src="../images/api_screenshot.png" alt="sample" width="600">
-``` -->
-
-```JSON
+<!-- ```JSON
 {
   "predicted_queue": "Technical Support"
 }
-```
+``` -->
 
 ## Project Structure
 
