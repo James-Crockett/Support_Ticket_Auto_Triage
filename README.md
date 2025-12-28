@@ -86,7 +86,7 @@ curl -X 'POST' \
 
 ### Sample
 
-![API_sample](../images/api_screenshot.png)
+![API_sample](images/api_screenshot.png)
 <!-- ```html
 <img src="../images/api_screenshot.png" alt="sample" width="600">
 ``` -->

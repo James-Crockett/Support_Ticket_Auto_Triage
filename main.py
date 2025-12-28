@@ -52,7 +52,7 @@ app = FastAPI(title="Support Ticket Auto-Triage API (DistilBERT)")
 
 # Path to the saved transformer model
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-# Note: Ensure this path correctly points to where trainer.save_model() was called
+
 MODEL_PATH = os.path.join(BASE_DIR, "models", "transformer")
 
 classifier = None
