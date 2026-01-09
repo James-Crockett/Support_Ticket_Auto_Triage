@@ -1,5 +1,9 @@
-.git
-.venv
-__pycache__
-models/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
 notebooks/
+.vscode/
+.git/
+data/
+images/
