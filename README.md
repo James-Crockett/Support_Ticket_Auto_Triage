@@ -15,6 +15,10 @@ https://huggingface.co/datasets/Tobi-Bueck/customer-support-tickets
 * **Production-Ready API:** A **FastAPI** service designed to serve predictions in real-time.
 * **Dockerized Deployment:** Fully containerized application using `uv` for dependency management and Python 3.12.
 * **GPU Acceleration:** Optimized for training on NVIDIA GPUs, specifically configured for RTX 50-series (Blackwell) hardware via PyTorch Nightly.
+  
+## Demo
+
+https://github.com/user-attachments/assets/db1a14a9-7439-4979-b10e-9e69945111aa
 
 ## Model Performance
 
